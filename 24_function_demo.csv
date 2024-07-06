@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#Creating a function
+
+function f1 {
+ echo "---------------------"
+ echo "This is a function f1"
+ echo "---------------------"
+}
+
+f2(){
+ echo "######################"	
+ echo "Hello from function f2"
+ echo "######################"
+}
+
+#Calling a function
+f1
+f2
+f1
+f1
+f2
+f2
